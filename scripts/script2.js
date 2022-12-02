@@ -11,6 +11,7 @@ var sommeRockPaper = 0;
 //les char sont aux position 6 et 8
 // console.log(String(result[0]).charAt(8));
 
+//les points sont cumulés par rapport à l'algorithme défini par l'exercice
 for (let i = 0; i < result.length; i++) {
   switch (String(result[i]).charAt(6)) {
     case "A":
@@ -55,3 +56,27 @@ for (let i = 0; i < result.length; i++) {
   }
 }
 console.log(sommeRockPaper);
+
+/*algorithme de l'exercice:
+
+A = rock            Y = paper = 2
+B = paper           X = rock = 1
+C = scissors        z = scissors = 3
+
+Win = 3
+Draw = 3
+Lose = 0
+
+AY = 8
+AX = 4
+AZ = 3
+
+BY = 5
+BX = 1
+BZ = 9
+
+CY = 2
+CX = 7
+CZ = 6
+
+*/
