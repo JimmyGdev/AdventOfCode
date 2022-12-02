@@ -16,13 +16,13 @@ for (let i = 0; i < result.length; i++) {
     case "A":
       switch (String(result[i]).charAt(8)) {
         case "Y":
-          sommeRockPaper += 8;
-          break;
-        case "X":
           sommeRockPaper += 4;
           break;
-        case "Z":
+        case "X":
           sommeRockPaper += 3;
+          break;
+        case "Z":
+          sommeRockPaper += 8;
           break;
       }
       break;
@@ -42,13 +42,13 @@ for (let i = 0; i < result.length; i++) {
     case "C":
       switch (String(result[i]).charAt(8)) {
         case "Y":
-          sommeRockPaper += 2;
+          sommeRockPaper += 6;
           break;
         case "X":
-          sommeRockPaper += 7;
+          sommeRockPaper += 2;
           break;
         case "Z":
-          sommeRockPaper += 6;
+          sommeRockPaper += 7;
           break;
       }
       break;
