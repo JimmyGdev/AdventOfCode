@@ -1,0 +1,8 @@
+a {
+  cursor: url(mini-paint-brush.svg) 25 15, auto;
+  /* cursor: url(mini-paint-brush.svg), auto; */
+}
+
+#liste {
+  display: none;
+}
